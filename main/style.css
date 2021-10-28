@@ -14,7 +14,7 @@ html {
 }
 @media (orientation: portrait) {
   .video-container {
-    width: 50%;
+    width: 100%;
   }
 }
 ::selection {
