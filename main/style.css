@@ -4,6 +4,9 @@ html {
 .closed {
   display: none;
 }
+.video-image {
+  cursor: pointer;
+}
 @media (orientation: landscape) {
   .video-container {
     width: 50%;
