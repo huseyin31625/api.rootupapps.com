@@ -12,7 +12,7 @@ html {
     width: 50%;
   }
 }
-@media (orientation: portrait)
+@media (orientation: portrait) {
   .video-container {
     width: 50%;
   }
