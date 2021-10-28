@@ -17,3 +17,7 @@ html {
     width: 50%;
   }
 }
+::selection {
+  background-color: pink;
+  color: white;
+}
