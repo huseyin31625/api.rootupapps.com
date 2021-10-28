@@ -1,6 +1,9 @@
 html {
   font-family: sans-serif;
 }
+.closed {
+  display: none;
+}
 @media (orientation: landscape) {
   .video-container {
     width: 50%;
