@@ -10,6 +10,7 @@ html {
 @media (orientation: landscape) {
   .video-container {
     width: 50%;
+    display: inline-block;
   }
 }
 @media (orientation: portrait) {
