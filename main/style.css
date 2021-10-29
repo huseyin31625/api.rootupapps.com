@@ -25,3 +25,6 @@ html {
 a:link {
   color: #b98d94;
 }
+a:visited {
+  color: pink;
+}
