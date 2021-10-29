@@ -22,3 +22,6 @@ html {
   background-color: #b98d94;
   color: white;
 }
+a:link {
+  color: #b98d94;
+}
