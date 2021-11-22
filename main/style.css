@@ -41,3 +41,8 @@ img {
   width: 100%;
 }
 }
+@media only screen and (hover: none) and (pointer: coarse){
+img {
+  width: 100%;
+}
+}
