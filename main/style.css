@@ -62,12 +62,9 @@ img {
   background-color: white;
 }
 @font-face {
+  font-weight: 300 700;
   font-variation-settings: "wght" 300, 700 "opsz" 5 36;
   font-style: normal;
   font-family: 'Segoe UI Variable';
   src: url('SegUIVar.ttf') format('truetype-variations');
-}
-b {
-  font-weight: normal;
-  font-variation-settings: "wght" 700, "opsz" 12;
 }
