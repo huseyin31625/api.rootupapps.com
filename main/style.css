@@ -20,14 +20,14 @@ html {
   }
 }
 ::selection {
-  background-color: #b98d94;
+  background-color: #FFDDDD;
   color: white;
 }
 a:link {
-  color: #b98d94;
+  color: #FFDDDD;
 }
 a:visited {
-  color: pink;
+  color: #FFEEEE;
 }
 body {
   margin: 0;
