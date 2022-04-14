@@ -68,3 +68,9 @@ img {
   font-family: 'Segoe UI Variable';
   src: url('SegUIVar.ttf') format('truetype-variations');
 }
+pre, code {
+  background-color: #F0000000;
+  font-size: 16px;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
