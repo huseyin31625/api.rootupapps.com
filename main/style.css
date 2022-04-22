@@ -44,23 +44,7 @@ img {
   width: 100%;
 }
 }*/
-.modal-container {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(64px);
-  background-color: #AAAAAAAA;
-}
-.modal-body {
-  padding: 32px;
-  border-radius: 6px;
-  background-color: white;
-}
+
 @font-face {
   font-weight: 300 700;
   font-variation-settings: "wght" 300, 700 "opsz" 5 36;
