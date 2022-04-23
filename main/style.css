@@ -7,6 +7,8 @@ html {
   --theme-color-hover: #039dfa;
   --theme-color-disabled: #cfcfcf;
   --theme-color-disabled-text: #737373;
+  --background: white;
+  --foreground: black;
 }
 .closed {
   display: none;
@@ -79,4 +81,16 @@ button:hover {
 button:disabled {
   background-color: var(--theme-color-disabled);
   color: var(--theme-color-disabled-text);
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    --theme-color: #1494fd;
+    --theme-color-visited: #149efd;
+    --theme-color-hover: #149efb;
+    --theme-color-disabled: #303030;
+    --theme-color-disabled-text: #8C8C8C;
+    --background: black;
+    --foreground: white;
+    color-scheme: dark;
+  }
 }
