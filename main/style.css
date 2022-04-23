@@ -2,6 +2,11 @@
 html {
   font-family: 'Segoe UI Variable', sans-serif;
   font-variation-settings: 'opsz' 12;
+  --theme-color: #0373fc;
+  --theme-color-visited: #039dfc;
+  --theme-color-hover: #039dfa;
+  --theme-color-disabled: #cfcfcf;
+  --theme-color-disabled-text: #737373;
 }
 .closed {
   display: none;
@@ -25,10 +30,10 @@ html {
   color: white;
 }
 a:link {
-  color: #0373fc;
+  color: var(--theme-color);
 }
 a:visited {
-  color: #039dfc;
+  color: var(--theme-color-visited);
 }
 body {
   margin: 0;
@@ -58,4 +63,10 @@ pre, code {
   font-size: 16px;
   overflow-wrap: break-word;
   white-space: pre-wrap;
+}
+button {
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-variation-settings: 'opsz' 12;
+  padding: 16px 10px;
+  background-color: var(--theme-color);
 }
