@@ -71,7 +71,7 @@ button {
   background-color: var(--theme-color);
   color: white;
   border: none;
-  transition: all 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 button:hover {
   background-color: var(--theme-color-hover);
