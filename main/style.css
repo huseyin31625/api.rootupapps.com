@@ -9,6 +9,8 @@ html {
   --theme-color-disabled-text: #737373;
   --background: white;
   --foreground: black;
+  color: var(--foreground);
+  background-color: var(--background);
 }
 .closed {
   display: none;
