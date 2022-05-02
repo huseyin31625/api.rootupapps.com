@@ -39,12 +39,39 @@ a:link {
 a:visited {
   color: var(--theme-color-visited);
 }
-body {
-  margin: 0px 60px 0px 60px;
-}
 @media (max-width: 500px) {
   body {
     margin: 0px;
+  }
+}
+@media (max-width: 1000px) {
+  body {
+    margin: 0px 60px 0px 60px;
+  }
+}
+@media (max-width: 2000px) {
+  body {
+    margin: 0px 120px 0px 120px;
+  }
+}
+@media (max-width: 2000px) {
+  body {
+    margin: 0px 120px 0px 120px;
+  }
+}
+@media (max-width: 3000px) {
+  body {
+    margin: 0px 180px 0px 180px;
+  }
+}
+@media (max-width: 4000px) {
+  body {
+    margin: 0px 240px 0px 240px;
+  }
+}
+@media (max-width: 5000px) {
+  body {
+    margin: 0px 300px 0px 300px;
   }
 }
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait){
@@ -54,11 +81,9 @@ html {
   zoom: 125%;  
 }
 }
-/*@media only screen and (hover: none) and (pointer: coarse){
 img {
   width: 100%;
 }
-}*/
 
 @font-face {
   font-weight: 300 700;
