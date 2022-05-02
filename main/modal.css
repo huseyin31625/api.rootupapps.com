@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(64px);
+  backdrop-filter: blur(2px);
   background-color: #AAAAAAAA;
 }
 .modal-body {
