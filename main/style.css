@@ -18,16 +18,8 @@ html {
 .video-image {
   cursor: pointer;
 }
-@media (orientation: landscape) {
-  .video-container {
-    width: 50%;
-    display: inline-block;
-  }
-}
-@media (orientation: portrait) {
-  .video-container {
-    width: 100%;
-  }
+.video-container {
+  width: 100%;
 }
 ::selection {
   background-color: var(--theme-color);
