@@ -41,22 +41,17 @@ a:visited {
     margin: 0px 60px 0px 60px;
   }
 }
-@media (max-width: 2000px) {
+@media (max-width: 2000px) and (min-width: 2999px) {
   body {
     margin: 0px 120px 0px 120px;
   }
 }
-@media (max-width: 2000px) {
-  body {
-    margin: 0px 120px 0px 120px;
-  }
-}
-@media (max-width: 3000px) {
+@media (max-width: 3000px) and (min-width: 3999px) {
   body {
     margin: 0px 180px 0px 180px;
   }
 }
-@media (max-width: 4000px) {
+@media (max-width: 4000px) and (min-width: 4999px) {
   body {
     margin: 0px 240px 0px 240px;
   }
