@@ -11,6 +11,8 @@ html {
   --foreground: black;
   color: var(--foreground);
   background-color: var(--background);
+  display: flex;
+  justify-content: center;
 }
 .closed {
   display: none;
@@ -30,36 +32,6 @@ a:link {
 }
 a:visited {
   color: var(--theme-color-visited);
-}
-@media (max-width: 500px) {
-  body {
-    margin: 0px;
-  }
-}
-@media (max-width: 1000px) {
-  body {
-    margin: 0px 60px 0px 60px;
-  }
-}
-@media (max-width: 2000px) and (min-width: 2999px) {
-  body {
-    margin: 0px 120px 0px 120px;
-  }
-}
-@media (max-width: 3000px) and (min-width: 3999px) {
-  body {
-    margin: 0px 180px 0px 180px;
-  }
-}
-@media (max-width: 4000px) and (min-width: 4999px) {
-  body {
-    margin: 0px 240px 0px 240px;
-  }
-}
-@media (max-width: 5000px) {
-  body {
-    margin: 0px 300px 0px 300px;
-  }
 }
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait){
 
@@ -93,6 +65,10 @@ button {
   color: white;
   border: none;
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+body {
+  margin: 0;
+  width: 75%;
 }
 button:hover {
   background-color: var(--theme-color-hover);
