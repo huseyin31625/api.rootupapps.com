@@ -74,6 +74,7 @@ div.gui-container {
 }
 header {
   width: 100%;
+  height: fit-content;
 }
 .header-container a {
   padding: 16px;
@@ -82,7 +83,8 @@ header {
   padding: 8px;
   width: 100%;
 }
-.header-logo {
+.header_logo {
+  display: inline-block;
   height: 100%;
   aspect-ratio: 3840 / 903;
   background-image: url(https://static.rootupapps.com/rootupapps.png);
@@ -105,9 +107,7 @@ button:disabled {
     --foreground: white;
     color-scheme: dark;
   }
-  .header-logo {
-    height: 100%;
-    aspect-ratio: 3840 / 903;
+  .header_logo {
     background-image: url(https://static.rootupapps.com/rootupapps-dark.png);
   }
 }
