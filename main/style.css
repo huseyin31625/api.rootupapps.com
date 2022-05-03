@@ -11,8 +11,6 @@ html {
   --foreground: black;
   color: var(--foreground);
   background-color: var(--background);
-  display: flex;
-  justify-content: center;
 }
 .closed {
   display: none;
@@ -68,7 +66,26 @@ button {
 }
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
+}
+div.gui-container {
   width: 75%;
+}
+header {
+  width: 100%;
+}
+.header-container a {
+  padding: 16px;
+}
+.header-container {
+  padding: 8px;
+  width: 100%;
+}
+.header-logo {
+  height: 100%;
+  aspect-ratio: 3840 / 903;
+  background-image: url(https://static.rootupapps.com/rootupapps.png);
 }
 button:hover {
   background-color: var(--theme-color-hover);
@@ -87,5 +104,10 @@ button:disabled {
     --background: black;
     --foreground: white;
     color-scheme: dark;
+  }
+  .header-logo {
+    height: 100%;
+    aspect-ratio: 3840 / 903;
+    background-image: url(https://static.rootupapps.com/rootupapps-dark.png);
   }
 }
