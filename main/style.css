@@ -92,6 +92,10 @@ header {
 button:hover {
   background-color: var(--theme-color-hover);
 }
+button:active {
+  background-color: white;
+  color: var(--theme-color);
+}
 button:disabled {
   background-color: var(--theme-color-disabled);
   color: var(--theme-color-disabled-text);
