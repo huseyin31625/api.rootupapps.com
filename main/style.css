@@ -37,11 +37,10 @@ a:visited {
 html {
   zoom: 125%;  
 }
-}
 img {
   width: 100%;
 }
-
+}
 @font-face {
   font-weight: 300 700;
   font-variation-settings: "wght" 300, 700 "opsz" 5 36;
