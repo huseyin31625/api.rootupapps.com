@@ -64,14 +64,6 @@ button {
   border: none;
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-div.gui-container {
-  width: 75%;
-}
 header {
   width: 100%;
   height: fit-content;
