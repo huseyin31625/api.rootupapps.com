@@ -2,6 +2,7 @@
 html {
   font-family: 'Segoe UI Variable', sans-serif;
   font-variation-settings: 'opsz' 12;
+  font-feature-settings: 'tnum';
   --theme-color: #0373fc;
   --theme-color-visited: #039dfc;
   --theme-color-hover: #039dfa;
