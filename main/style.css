@@ -20,7 +20,7 @@ html {
   cursor: pointer;
 }
 .video-container {
-  width: 100%;
+  width: 50%;
 }
 ::selection {
   background-color: var(--theme-color);
